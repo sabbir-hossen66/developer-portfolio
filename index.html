@@ -34,7 +34,7 @@
     <div class="home-content">
       <h3>Hi Myself</h3>
       <h1>Sabbir Hossen</h1>
-      <h3>And I'm a <span>Web DEveloper</span></h3>
+      <h3>And I'm a <span class="multiple-text"></span></h3>
 
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni dicta qui quis consequatur perferendis,
         voluptates expedita. Itaque quae quisquam nobis sint laborum porro consequuntur deleniti laboriosam sapiente
@@ -137,11 +137,58 @@
         </div>
       </div>
 
-
-
     </div>
   </section>
+  <!-- Contact section design -->
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
 
+    <form action="#">
+      <div class="input-box">
+        <input type="text" placeholder="Full Name">
+        <input type="email" name="" id="" placeholder="Email">
+      </div>
+
+      <div class="input-box">
+        <input type="number" placeholder="Mobile Number">
+        <input type="text" placeholder="Email Subject">
+      </div>
+
+      <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+      <input type="submit" value="Send Message" class="btn">
+
+    </form>
+  </section>
+  <!-- Footer design -->
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Copyright &copy; 2024 by @sabbir | All Rights Reserved.</p>
+    </div>
+
+    <div class="footer-iconTop">
+      <a href="#home">
+        <i class="fa-solid fa-angle-up"></i>
+      </a>
+    </div>
+  </footer>
+  <!-- scroll reval -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!-- typed -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const typed = new Typed('.multiple-text', {
+        strings: ['Web Developer', 'UI/UX Designer', 'React Js Developer'],
+        typeSpeed: 70,
+        backSpeed: 70,
+        backDelay: 1000,
+        loop: true
+      });
+    });
+  </script>
+
+  <!-- main js -->
   <script src="main.js"></script>
 </body>
 
