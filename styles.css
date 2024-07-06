@@ -198,6 +198,15 @@ span {
   margin: 2rem 0 3rem;
 }
 
+.pragraph {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.about-section {
+  font-size: 1.5rem;
+}
+
 /* .services h2 {
   margin-bottom: 5rem;
 }
@@ -392,10 +401,11 @@ span {
 }
 
 .portfolio-layer a i {
-  font-size: 2rem;
+  font-size: 3rem;
   color: var(--snd-bg-color);
 
 }
+
 
 .contact h2 {
   margin-bottom: 3rem;
@@ -564,6 +574,8 @@ span {
     width: 70vw;
     margin-top: 4rem;
   }
+
+
 
   .services h2 {
     margin-bottom: 3rem;
