@@ -258,6 +258,14 @@ span {
   margin-bottom: 5rem;
 }
 
+.services-box h4 {
+  font-size: 1.5rem;
+}
+
+.services-list li {
+  font-size: 1.5rem;
+}
+
 .services-container {
   display: flex;
   justify-content: center;
@@ -406,6 +414,10 @@ span {
 
 }
 
+.contact-social {
+  text-align: center;
+  font-size: 1.5rem;
+}
 
 .contact h2 {
   margin-bottom: 3rem;

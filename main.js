@@ -1,3 +1,5 @@
+
+
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
@@ -44,10 +46,13 @@ scrollReveal().reveal('.home-img,.services-container, .portfolio-box, .contact f
 scrollReveal().reveal('.home-contact h1, .about-img', { origin: 'left' })
 scrollReveal().reveal('.home-contact p, .about-content', { origin: 'right' })
 
-// --------------------typed js-------------
-// const typed = new Typed('.multiple-text', {
-//   strings: ['Web Developer', 'UI/UX Designer,React Js Developer'],
-//   typeSpeed: 70,
-//   backSpeed: 70,
-//   backDelay: 1000,
-// })
+// --------------------down load resume js-------------
+document.getElementById('download-resume').addEventListener('click', function (event) {
+  event.preventDefault();
+  let link = document.createElement('a');
+  link.href = 'resume.pdf'; // Path to your resume file
+  link.download = 'resume.pdf';
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+});
