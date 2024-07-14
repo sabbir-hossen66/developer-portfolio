@@ -47,12 +47,12 @@ scrollReveal().reveal('.home-contact h1, .about-img', { origin: 'left' })
 scrollReveal().reveal('.home-contact p, .about-content', { origin: 'right' })
 
 // --------------------down load resume js-------------
-document.getElementById('download-resume').addEventListener('click', function (event) {
-  event.preventDefault();
-  let link = document.createElement('a');
-  link.href = 'resume.pdf'; // Path to your resume file
-  link.download = 'resume.pdf';
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-});
+// document.getElementById('download-resume').addEventListener('click', function (event) {
+//   event.preventDefault();
+//   let link = document.createElement('a');
+//   link.href = 'resume.pdf'; // Path to your resume file
+//   link.download = 'resume.pdf';
+//   document.body.appendChild(link);
+//   link.click();
+//   document.body.removeChild(link);
+// });
